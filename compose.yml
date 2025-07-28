@@ -88,7 +88,7 @@ services:
       - MANDRILL_API_KEY
       - SENDGRID_API_KEY
     ports:
-      - 8000:8000
+      - 8080:8080
       - 8443:8443
 
 volumes:
