@@ -87,6 +87,9 @@ services:
       - MAILGUN_BASE_URI
       - MANDRILL_API_KEY
       - SENDGRID_API_KEY
+    ports:
+      - 8000:8000
+      - 8443:8443
 
 volumes:
   db-data:
