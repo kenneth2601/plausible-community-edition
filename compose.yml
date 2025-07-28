@@ -65,13 +65,13 @@ services:
       - DATABASE_URL=${DATABASE_URL}
       - CLICKHOUSE_DATABASE_URL=${CLICKHOUSE_DATABASE_URL}
       # Google: https://github.com/plausible/community-edition/wiki/configuration#google
-      - GOOGLE_CLIENT_ID=${GOOGLE_CLIENT_ID}
-      - GOOGLE_CLIENT_SECRET=${GOOGLE_CLIENT_SECRET}
+      - GOOGLE_CLIENT_ID
+      - GOOGLE_CLIENT_SECRET
       # geolocation: https://github.com/plausible/community-edition/wiki/configuration#ip-geolocation
-      - IP_GEOLOCATION_DB=${IP_GEOLOCATION_DB}
-      - GEONAMES_SOURCE_FILE=${GEONAMES_SOURCE_FILE}
-      - MAXMIND_LICENSE_KEY=${MAXMIND_LICENSE_KEY}
-      - MAXMIND_EDITION=${MAXMIND_EDITION}
+      - IP_GEOLOCATION_DB
+      - GEONAMES_SOURCE_FILE
+      - MAXMIND_LICENSE_KEY
+      - MAXMIND_EDITION
       # email: https://github.com/plausible/community-edition/wiki/configuration#email
       - MAILER_ADAPTER=${MAILER_ADAPTER}
       - MAILER_EMAIL=${MAILER_EMAIL}
